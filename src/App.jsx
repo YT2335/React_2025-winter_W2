@@ -10,7 +10,7 @@ function App() {
   const [isAuth, setIsAuth] = useState(false);
   // 表單資料狀態(儲存登入表單輸入)
   const [account, setAccount] = useState({
-    username: "ytlego2335@gmail.com",
+    username: "",
     password: "",
   });
 
